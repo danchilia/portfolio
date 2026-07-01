@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dan Chilia | Web & Software Developer</title>
+<meta name="description" content="Dan Chilia — Web & Software Developer. I build websites and custom software for businesses and individuals." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">Dan<span>Chilia</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <p class="hero-eyebrow">Hi, I'm</p>
+    <h1>Dan Chilia</h1>
+    <h2>Web &amp; Software Developer</h2>
+    <p class="hero-tagline">I build websites and custom software for businesses and individuals.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Hire Me</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <p>
+        I'm Dan Chilia, a web and software developer based in Kenya, focused on building websites and
+        practical software that solve real problems for small businesses and individuals. I work across
+        the stack — from responsive, mobile-friendly front-ends to PHP/MySQL and Python-powered backends —
+        and I enjoy turning everyday business processes like bookings, sales, and inventory into systems
+        that people actually want to use.
+      </p>
+      <p>
+        My approach is simple: understand what the client actually needs, keep the code clean and
+        maintainable, and communicate clearly from the first conversation to final delivery. I'm equally
+        comfortable building a brochure-style website for a local business or a custom management system
+        with a database behind it, and I'm always learning new tools to solve problems more efficiently.
+      </p>
+      <p>
+        When I'm not coding, I'm usually exploring new frameworks, contributing to personal projects, or
+        refining the systems I've already built based on real user feedback.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="services">
+  <div class="container">
+    <h2 class="section-title">Services</h2>
+    <div class="grid services-grid">
+      <div class="card service-card">
+        <i class="fa-solid fa-globe"></i>
+        <h3>Website Development</h3>
+        <p>Fast, responsive, mobile-friendly websites for businesses and personal brands.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-window-restore"></i>
+        <h3>Web Applications</h3>
+        <p>Custom web apps tailored to your workflow, from concept to deployment.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-building"></i>
+        <h3>Business Management Systems</h3>
+        <p>Systems that streamline day-to-day operations for schools, clinics, and companies.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-cash-register"></i>
+        <h3>POS Systems</h3>
+        <p>Point-of-sale software for retail and hospitality businesses.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-boxes-stacked"></i>
+        <h3>Inventory Systems</h3>
+        <p>Track stock levels, sales, and suppliers in one simple dashboard.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-bug"></i>
+        <h3>Bug Fixing</h3>
+        <p>Debugging and stabilizing existing codebases so they run reliably.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-plug"></i>
+        <h3>API Integration</h3>
+        <p>Connecting your app to payment gateways, messaging, and third-party APIs.</p>
+      </div>
+      <div class="card service-card">
+        <i class="fa-solid fa-database"></i>
+        <h3>Database Design</h3>
+        <p>Well-structured, scalable databases that keep your data reliable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-subtitle">A set of demo projects showing the kind of systems I build.</p>
+    <div class="grid projects-grid">
+
+      <div class="card project-card">
+        <div class="project-icon"><i class="fa-solid fa-utensils"></i></div>
+        <h3>Restaurant Website</h3>
+        <p>A modern restaurant site with menu display, online reservations, and a contact section.</p>
+        <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="#" class="btn btn-small btn-outline">View Demo</a>
+          <a href="#" class="btn btn-small btn-ghost">Source Code</a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>School Management System</h3>
+        <p>Manages students, teachers, classes, and grades with role-based access.</p>
+        <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="#" class="btn btn-small btn-outline">View Demo</a>
+          <a href="#" class="btn btn-small btn-ghost">Source Code</a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-icon"><i class="fa-solid fa-notes-medical"></i></div>
+        <h3>Hospital Management System</h3>
+        <p>Handles patient records, appointments, and billing for small clinics.</p>
+        <div class="tags"><span>PHP</span><span>MySQL</span><span>Python</span></div>
+        <div class="project-links">
+          <a href="#" class="btn btn-small btn-outline">View Demo</a>
+          <a href="#" class="btn btn-small btn-ghost">Source Code</a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-icon"><i class="fa-solid fa-warehouse"></i></div>
+        <h3>Inventory Management System</h3>
+        <p>Tracks stock, suppliers, and sales in real time with low-stock alerts.</p>
+        <div class="tags"><span>Python</span><span>MySQL</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="#" class="btn btn-small btn-outline">View Demo</a>
+          <a href="#" class="btn btn-small btn-ghost">Source Code</a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-icon"><i class="fa-solid fa-church"></i></div>
+        <h3>Church Website</h3>
+        <p>Informational site with service times, sermons, events, and online giving.</p>
+        <div class="tags"><span>HTML5</span><span>CSS3</span><span>PHP</span></div>
+        <div class="project-links">
+          <a href="#" class="btn btn-small btn-outline">View Demo</a>
+          <a href="#" class="btn btn-small btn-ghost">Source Code</a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-icon"><i class="fa-solid fa-sack-dollar"></i></div>
+        <h3>Personal Finance Tracker</h3>
+        <p>Tracks income, expenses, and budgets with simple visual reports.</p>
+        <div class="tags"><span>Python</span><span>JavaScript</span><span>MySQL</span></div>
+        <div class="project-links">
+          <a href="#" class="btn btn-small btn-outline">View Demo</a>
+          <a href="#" class="btn btn-small btn-ghost">Source Code</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</div>
+      <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+      <div class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript</div>
+      <div class="skill-pill"><i class="fa-brands fa-php"></i> PHP</div>
+      <div class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</div>
+      <div class="skill-pill"><i class="fa-brands fa-python"></i> Python</div>
+      <div class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</div>
+      <div class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimonials">
+  <div class="container">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="empty-state">
+      <i class="fa-solid fa-comments"></i>
+      <p>Client testimonials will be added here as projects are completed. Check back soon!</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-subtitle">Have a project in mind? Let's talk.</p>
+    <div class="contact-links">
+      <a href="mailto:danchilia16@gmail.com" class="contact-link">
+        <i class="fa-solid fa-envelope"></i> Email
+      </a>
+      <a href="https://wa.me/254742681410" target="_blank" rel="noopener" class="contact-link">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="#" target="_blank" rel="noopener" class="contact-link">
+        <i class="fa-brands fa-facebook"></i> Facebook
+      </a>
+      <a href="https://github.com/danchilia" target="_blank" rel="noopener" class="contact-link">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="#" target="_blank" rel="noopener" class="contact-link">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Dan Chilia. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
