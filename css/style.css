@@ -281,6 +281,14 @@ img { max-width: 100%; display: block; }
   margin-top: 6px;
 }
 
+.project-links .btn-outline {
+  color: var(--primary);
+}
+
+.project-links .btn-outline:hover {
+  color: #0b0f19;
+}
+
 /* Skills */
 .skills-grid {
   display: flex;
